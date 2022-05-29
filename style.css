@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+#search-btn, #play-audio {
+    cursor: pointer;
+}
+
+#word-input:focus, #search-btn:focus {
+    outline: none;
+}
+
+#play-audio:hover {
+    opacity: .8;
+}
